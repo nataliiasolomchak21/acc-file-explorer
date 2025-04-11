@@ -23,6 +23,7 @@ def get_files_in_folder(token, project_id, folder_id):
         if files:
             print(f"Found {len(files)} files in folder {folder_id}")
             for file in files:
+                # https://aps.autodesk.com/en/docs/data/v2/developers_guide/field-guide/#item
                 print(f"File Name: {file['attributes']['displayName']}")
                 print(f"File ID: {file['id']}")
         else:

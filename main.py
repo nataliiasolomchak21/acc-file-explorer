@@ -6,10 +6,9 @@ def main():
     #  Authenticate and get token
     token = get_autodesk_token()
     if not token:
-        print("Failed to authenticate. Exiting.")
+        print("Failed to authenticate.")
         exit()
 
-    # Fetch projects and folder IDs from environment variables
     project_id = os.getenv("PROJECT_ID")  
     folder_id = os.getenv("FOLDER_ID") 
 

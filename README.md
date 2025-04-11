@@ -1,12 +1,11 @@
 ## Project Description
 
-Authenticate with Autodesk Construction Cloud (ACC), fetch files from a project folder, and extract folder IDs from Autodesk URLs.
+Authenticate with Autodesk Construction Cloud (ACC) and fetch files from a project folder.
 
 ## Features
 
 - **Authenticate with Autodesk Construction Cloud**: Secure authentication using client ID and secret.
 - **Fetch Files**: Retrieve files from a specific project folder within Autodesk Construction Cloud.
-- **Extract Folder ID**: Extract the folder ID from Autodesk URLs.
 
 ---
 
@@ -42,8 +41,4 @@ FOLDER_ID=your_folder_id
 - Running the Project:
 ```
 python main.py
-```
-- To extract a folder ID from an Autodesk Construction Cloud URL
-```
-python extract_folder.py
 ```
